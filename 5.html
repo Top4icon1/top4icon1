@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
     <title>Radikhub</title>
-	<link rel="stylesheet" type="text/css" href="2.css">
-	<link rel="icon" href="icon-round.png" type="image/x-icon">
-	<style>
+    <link rel="stylesheet" type="text/css" href="1.css">
+    <link rel="icon" href="icon-round.png" type="image/x-icon">
+<style>
 .dropbtn {
-  background-color: red;
+  background-color: #FF0000;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -46,14 +48,11 @@
 .show {display: block;}
 </style>
 </head>
-  </head>
-  <body>
-    <!-- Здесь будет ваш контент -->
-    
-    <!-- Шапка сайта -->
-    <header>
-      <h1><a href="1.html" style="color:red">Radikhub</a></h1>
-	  <div class="dropdown">
+<body>
+<h1><a href="1.html" style="color:red">Radikhub</a></h1>
+
+
+<div class="dropdown">
   <button onclick="myFunction()" class="dropbtn"> Меню</button>
   <div id="myDropdown" class="dropdown-content">
     <a href="1.html">Главная</a>
@@ -62,25 +61,8 @@
     <a href="3.html">Контакты</a>
   </div>
 </div>
-      <nav>
-        <ul>
-          
-        </ul>
-      </nav>	
-    </header>
-    
-    <!-- Основной контент -->
-    <main>
-      <h2> Выбор предмета:</h2>
-		<nav>
-			<ul>
-				<li><a href="4.html">Информатика</a></li>
-				<li><a href="2_2.html">Языки программирования</a></li>
-				<li><a href="2_3.html">Электроника и схемотехника</a></li>
-			</ul>
-		</nav>
-    </main>
-    <script>
+
+<script>
 /* Когда пользователь нажимает на кнопку, переключаться раскрывает содержимое */
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
@@ -99,9 +81,16 @@ window.onclick = function(event) {
   }
 }
 </script>
-    <!-- Футер сайта -->
-    <footer>
+	<main>
+      <h2>Заказ</h2>
+	  <h3>Для отправки заказа, заполните форму.</h3>
+      <p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf7pRJtZBdh4B_u0zqyEj2u28CKDmXWWpYa7ShjH_l4JBMmpA/viewform?embedded=true" width="640" height="556" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe></p>
+    </main>
+	
+	
+</body>
+	<footer>
       <p>&copy; Radikhub, 2023</p>
     </footer>
-  </body>
 </html>
+
